@@ -28,37 +28,44 @@ Tp Réalisé par: Thibaud, Enzo, Nils
     <div class="page">
 
       <div class="personnages">
+        <?php
+        $personnages = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg", "images/6.jpg", "images/7.jpg", "images/8.jpg", "images/9.jpg", "images/10.jpg", "images/11.jpg", "images/12.jpg", "images/13.jpg", "images/14.jpg", "images/15.jpg", "images/16.jpg"];
+        shuffle($personnages);
+        echo('
 
         <div class="lignepersonnages">
+
         
-          <img src="images/1.jpg" alt="1" style="width:13%">
-          <img src="images/2.jpg" alt="2" style="width:13%">
-          <img src="images/3.jpg" alt="3" style="width:13%">
-          <img src="images/4.jpg" alt="4" style="width:13%">
-          <img src="images/5.jpg" alt="5" style="width:13%">
+          <img src="'.$personnages[0].'" alt="1" style="width:13%">
+          <img src="'.$personnages[1].'" alt="2" style="width:13%">
+          <img src="'.$personnages[2].'" alt="3" style="width:13%">
+          <img src="'.$personnages[3].'" alt="4" style="width:13%">
+          <img src="'.$personnages[4].'" alt="5" style="width:13%">
         
         </div>
 
         <div class="lignepersonnages">
 
-          <img src="images/6.jpg" alt="6" style="width:13%">
-          <img src="images/7.jpg" alt="7" style="width:13%">   
-          <img src="images/8.jpg" alt="8" style="width:13%">
-          <img src="images/9.jpg" alt="9" style="width:13%">
-          <img src="images/10.jpg" alt="10" style="width:13%">
-          <img src="images/11.jpg" alt="11" style="width:13%">
+          <img src="'.$personnages[5].'" alt="6" style="width:13%">
+          <img src="'.$personnages[6].'" alt="7" style="width:13%">   
+          <img src="'.$personnages[7].'" alt="8" style="width:13%">
+          <img src="'.$personnages[8].'" alt="9" style="width:13%">
+          <img src="'.$personnages[9].'" alt="10" style="width:13%">
+          <img src="'.$personnages[10].'" alt="11" style="width:13%">
         </div>
 
         <div class="lignepersonnages">
 
-          <img src="images/12.jpg" alt="12" style="width:13%">
-          <img src="images/13.jpg" alt="13" style="width:13%">
-          <img src="images/14.jpg" alt="14" style="width:13%">
-          <img src="images/15.jpg" alt="15" style="width:13%">
-          <img src="images/16.jpg" alt="16" style="width:13%">
+          <img src="'.$personnages[11].'" alt="12" style="width:13%">
+          <img src="'.$personnages[12].'" alt="13" style="width:13%">
+          <img src="'.$personnages[13].'" alt="14" style="width:13%">
+          <img src="'.$personnages[14].'" alt="15" style="width:13%">
+          <img src="'.$personnages[15].'" alt="16" style="width:13%">
 
         </div>
 
+        ');
+        ?> 
       </div>
 
       <div class="formulaire">
@@ -108,14 +115,6 @@ Tp Réalisé par: Thibaud, Enzo, Nils
     </div>
 
 
-
  </div>
 </body>
 </html>
-
-<?php
-
-$personnages["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg", "images/6.jpg", "images/7.jpg", "images/8.jpg", "images/9.jpg", "images/10.jpg", "images/11.jpg", "images/12.jpg", "images/13.jpg", "images/14.jpg", "images/15.jpg", "images/16.jpg"]
-
-
-?>

@@ -44,7 +44,7 @@ function afficherreponse($sol, $mensonge){
     }
 
     ?>
-    <a id="rejouer" href="index.html">Rejouer</a>
+    <a id="rejouer" href="index.php">Rejouer</a>
     <?php
 }
 
